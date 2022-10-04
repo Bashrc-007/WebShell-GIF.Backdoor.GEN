@@ -27,7 +27,7 @@ s6YnJlYWstYWxsO30NCglhe2NvbG9yOiMwMDAwMDA7dGV4dC1kZWNvcmF0aW9uOm5vbmU7fQ0KCWE6aG
 
 ```
 
-# After Decoding the $dos content, it seems like this;
+## After Decoding the $dos content, it seems like this;
 
 ```
 //$password = "huoshan";//
